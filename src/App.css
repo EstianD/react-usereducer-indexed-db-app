@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.signup-errors {
+  color: red;
+}
+
+.header-container {
+  display: flex;
+  /* width: 50%; */
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.user-title {
+  flex-grow: 1;
+}
+
+.logout-btn {
+  flex-grow: 1;
+}
+
+.todo-input {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.todo-input:focus {
+  border-color: red;
+}
+
+.input-error {
+  color: red;
+}
